@@ -1,0 +1,13 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Criando apirest com nodeJS",
+  "main": "src/server.js",
+  "scripts": {},
+  "author": "Victor Souza",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
+  }
+}
