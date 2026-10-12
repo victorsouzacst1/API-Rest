@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "Criando apirest com nodeJS",
   "main": "src/server.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
   "author": "Victor Souza",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/node": "^20.14.12",
     "tsx": "^4.16.2",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
